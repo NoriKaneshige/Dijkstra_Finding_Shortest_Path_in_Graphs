@@ -2,6 +2,7 @@
 
 
 > ## dijkstra algorithm: :wink:
+``` js
 class WeightedGraph {
     constructor() {
         this.adjacencyList = {};
@@ -111,12 +112,13 @@ console.log(graph)
 //   }
 // }
 console.log(graph.Dijkstra("A", "E")) // ["A", "C", "D", "F", "E"]
-
+```
 
 
 
 
 > ## Improved Dijkstra by using binary heaps: :laughing:
+``` js
 class WeightedGraph {
     constructor() {
         this.adjacencyList = {};
@@ -278,8 +280,9 @@ console.log(graph)
 //   }
 // }
 console.log(graph.Dijkstra("A", "E")) // [ 'A', 'C', 'D', 'F', 'E' ]
-
-
-
-
+```
+![shortest_path](https://github.com/NoriKaneshige/Dijkstra_Finding_Shortest_Path_in_Graphs/blob/master/shortest_path.png)
+![shortest_path_approach](https://github.com/NoriKaneshige/Dijkstra_Finding_Shortest_Path_in_Graphs/blob/master/shortest_path_approach.png)
+![shortest_path_approach_2](https://github.com/NoriKaneshige/Dijkstra_Finding_Shortest_Path_in_Graphs/blob/master/shortest_path_approach_2.png)
+![dijkstra_pseudocode](https://github.com/NoriKaneshige/Dijkstra_Finding_Shortest_Path_in_Graphs/blob/master/dijkstra_pseudocode.png)
 
