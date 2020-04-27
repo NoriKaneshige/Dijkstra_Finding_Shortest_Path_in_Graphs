@@ -1,6 +1,8 @@
 # Dijkstra_Finding_Shortest_Path_in_Graphs
 
 
+![dijkstra](dijkstra.gif)
+
 > ## dijkstra algorithm: :wink:
 ``` js
 class WeightedGraph {
